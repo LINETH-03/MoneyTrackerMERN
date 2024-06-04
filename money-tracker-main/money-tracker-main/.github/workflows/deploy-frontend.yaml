@@ -3,7 +3,7 @@ name: Deploy Web App - Frontend
 on:
   push:
     branches:
-      - main  # Use the branch you use for production
+      - master  # Use the branch you use for production
 
 jobs:
   host-1:
